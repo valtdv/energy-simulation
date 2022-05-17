@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ede0d4;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 1em;
+  width: 100%;
+  background: #6b705c;
+  -webkit-box-shadow: -5px 14px 40px -19px rgba(0,0,0,0.73);
+  -moz-box-shadow: -5px 14px 40px -19px rgba(0,0,0,0.73);
+  box-shadow: -5px 14px 40px -19px rgba(0,0,0,0.73);
+}
+
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 0.75em;
+}
+
+.nav__link {
+  color: #ffe8d6;
+  text-decoration: none;
+}
+
+/* MAIN SECTION */
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-top: 3.125em;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 31.25em;
+}
+
+.main__title {
+  width: 18.75em;
+  font-size: 2.25em;
+  color: #b08968;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main__img {
+  width: 18.75em;
+}
+
+/*
+.main__title,
+.main__subtitle,
+.main__integrantes, {
+  text-align: center;
+}
+*/
+
+/* SECTION */
+
+.section {
+  padding: 2em;
+}
+
+.section__title {
+  margin-bottom: 2em;
+  font-size: 1.75em;
+  text-align: center;
+  color: #a5a58d;
+}
+
+.section__subtitle {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #b7b7a4;
+}
+
+.section__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.section__half {
+  width: 50%;
+}
+
+.section__half--center {
+  display: flex;
+  justify-content: center;
+}
+
+.section__text {
+  color: #7f5539;
+  margin-bottom: 1em;
+}
+
+.section__text--center {
+  text-align: center;
+}
+
+.section__img {
+  width: 18.75em;
+}
+
+.section__table {
+  display: block;
+  margin: auto;
+  width: 62.5em;
+}
+
+.section__img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.section__img-result {
+  margin-bottom: 1em;
+  width: 43.75em;
+}
+
+.section__img-desc {
+  width: 43.75em;
+  color: #7f5539;
+}
